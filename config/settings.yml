@@ -14,4 +14,10 @@ plugins:
   discourse_another_email_smtp_password:
     default: "password"
     secret: true
+  discourse_another_email_force_from_domain:
+    default: ""
+    description: "Force all from addresses to use this domain (e.g., example.com). Leave empty to disable."
+  discourse_another_email_force_smtp_username_to_sender:
+    default: false
+    description: "Force SMTP username to match the sender address"
   

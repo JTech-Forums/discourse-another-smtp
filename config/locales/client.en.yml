@@ -8,3 +8,5 @@ en:
     discourse_another_email_smtp_username: another_email_smtp_username
     discourse_another_email_smtp_password: another_email_smtp_password
     discourse_another_email_maillist_allowing_emails: "which emails are allowed in maillist mode?"
+    discourse_another_email_force_from_domain: "Force from address domain (e.g., example.com). When set, all emails will be sent from this domain."
+    discourse_another_email_force_smtp_username_to_sender: "Force SMTP username to match the sender email address"
